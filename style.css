@@ -3,20 +3,19 @@ body {
     color: white;
 }
 
-#bingo-container {
-    border-style: solid;
-    border-width: 3px;
-    border-color: #4a4a4a;
-    padding: 12px;
-    border-radius: 8px;
-    display: inline-block;
-    width: 80%;
-}
-
-.cell{
+.mainCell{
     text-align: center;
     display: inline-block;
     width: 11%;
+    border-style: solid;
+    margin: 2px;
+    border-color: #383838;
+}
+
+.userCell{
+    text-align: center;
+    display: inline-block;
+    width: 15%;
     border-style: solid;
     margin: 2px;
     border-color: #383838;
