@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<!-- saved from url=(0436)https://s3.eu-west-1.amazonaws.com/eduflow-production/activity-resources/191767270778436.html?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA2TAWW44RCEE6YREN%2F20210701%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Date=20210701T115736Z&X-Amz-Expires=600&X-Amz-SignedHeaders=host&response-content-disposition=inline%3B%20filename%2A%3DUTF-8%27%27M1-D9.html&X-Amz-Signature=a78c51ebd388d3d77edd2cd0c0dd83b32308a418489b5e15f3f3820ec2055e83 -->
+<html>
+    <!--
+        BINGO CHALLENGE!!!
+        Create programmatically (with JS) a BINGO board with 76 cells, from 1 to 76.
+        Create a button to randomize a number from 1 to 76. The same number should be highlighted on the bingo board
+
+        EXTRA: 
+        - Take ALWAYS a new number (eg. avoid randoming the number 10 3 times)
+        - Create a USER BOARD with 24 randomized numbers that highlights as the main board does
+        - Let the user choose HOW MANY user boards he's willing to play with and create them.
+    -->
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+        <script data-dapp-detection="">!function(){let e=!1;function n(){if(!e){const n=document.createElement("meta");n.name="dapp-detected",document.head.appendChild(n),e=!0}}if(window.hasOwnProperty("ethereum")){if(window.__disableDappDetectionInsertion=!0,void 0===window.ethereum)return;n()}else{var t=window.ethereum;Object.defineProperty(window,"ethereum",{configurable:!0,enumerable:!1,set:function(e){window.__disableDappDetectionInsertion||n(),t=e},get:function(){if(!window.__disableDappDetectionInsertion){const e=arguments.callee;e&&e.caller&&e.caller.toString&&-1!==e.caller.toString().indexOf("getOwnPropertyNames")||n()}return t}})}}();</script>
+        <link rel="stylesheet" type="text/css" href="style.css" />
+        <script src="index.js"></script>
+    </head>
+  
+    <body>
+        
+        <h1>Bingo</h1>
+        <div id="bingo-container">
+            
+        </div>
+        <br>
+        <button onclick = "randomNum()">Play</button><br>
+    </body>
+</html>
